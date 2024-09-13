@@ -1,0 +1,65 @@
+ul{
+    list-style-type: square;
+}
+
+
+li {
+    display: inline;
+    padding: 1rem;
+}
+
+body{
+    background-color:rgb(123, 122, 122);
+    font-family: 'Papyrus', fantasy;
+    text-align: center;
+    background-image: url(redfundo.jpg);
+
+}
+
+a:hover{
+    color: rgba(209, 125, 125, 0.756);
+}
+
+a{
+    color:rgb(222, 206, 206);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+h1{
+    color: rgb(232, 221, 221);
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+}
+
+img{
+    border-radius: 10%;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+}
+
+.galeria img{
+    width: 300px;
+    border-radius: 20%
+}
+
+p{
+    font-size:1.5rem;
+}
+
+.contato img{
+    height: 150px;
+    border-radius: 50px;
+    transition: transform 0.2s ;
+}
+.contato img:hover{
+    transform: scale(1.05); 
+}
+
+img:hover{
+    transform: scale(1.05);
+}
